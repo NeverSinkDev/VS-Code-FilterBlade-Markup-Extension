@@ -3,7 +3,7 @@
     "displayName": "filterblade-options-language",
     "description": "Extension to modify FilterBlade option files",
     "publisher": "NeverSink",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "repository": {
         "url": "https://github.com/NeverSinkDev/VS-Code-FilterBlade-Markup-Extension",
         "type": "git"
