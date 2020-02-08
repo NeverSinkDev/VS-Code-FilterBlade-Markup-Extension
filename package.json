@@ -35,8 +35,5 @@
                 "path": "./syntaxes/options.tmLanguage.json"
             }
         ]
-    },
-    "dependencies": {
-        "generator-code": "^1.2.10"
     }
 }
