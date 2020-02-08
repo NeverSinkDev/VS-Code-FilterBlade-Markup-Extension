@@ -1,0 +1,42 @@
+{
+    "name": "filterblade-options-language",
+    "displayName": "filterblade-options-language",
+    "description": "Extension to modify FilterBlade option files",
+    "publisher": "NeverSink",
+    "version": "1.0.0",
+    "repository": {
+        "url": "https://github.com/NeverSinkDev/VS-Code-FilterBlade-Markup-Extension",
+        "type": "git"
+    },
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "options",
+                "aliases": [
+                    "options",
+                    "filterblade"
+                ],
+                "extensions": [
+                    ".options"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "options",
+                "scopeName": "text.html",
+                "path": "./syntaxes/options.tmLanguage.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "generator-code": "^1.2.10"
+    }
+}
