@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "filterblade-language" extension will be documented in this file.
 
+## [1.1.0] - 2020-02-08
+- Further cleanup
+
 ## [1.0.1] - 2020-02-08
 - Removed unneeded files
 
